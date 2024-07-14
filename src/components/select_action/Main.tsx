@@ -16,7 +16,6 @@ function Main(props:any) {
       
 
     return (
-        <div style={{backgroundColor:"black"}}>
         <Layout 
         style={{backgroundColor:"White"}}
         >
@@ -47,7 +46,6 @@ function Main(props:any) {
         </Content>
         {/* <Footer></Footer> */}
       </Layout>
-      </div>
     )
 
 }

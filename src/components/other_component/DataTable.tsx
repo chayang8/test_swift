@@ -10,11 +10,11 @@ const DataTable = (props:any) => {
   const { t } = props
   const formData = useAppSelector((state) => state.reducerform);
   const editDatas = useAppSelector((state) => state.reduceredit);
-  console.log(editDatas)
+//   console.log(editDatas)
   const dispatch = useAppDispatch();
   
   const handleEdit = (record: DataUser) => {
-    console.log(record)
+    // console.log(record)
     dispatch(editData(record));
   };
 

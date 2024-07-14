@@ -44,9 +44,7 @@ const formSlice = createSlice(
      reducers:{
         
         setFormData: (state, action: PayloadAction<DataUser>) => {
-            console.log(storedData)
             const newRecord = { ...action.payload, uuid: uuidv4() };
-            console.log(newRecord)
             state.push(newRecord);
             localStorage.setItem('formData', JSON.stringify(state));
           },

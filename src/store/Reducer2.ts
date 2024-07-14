@@ -9,8 +9,6 @@ const editUser = createSlice(
      initialState:storedData,
      reducers:{
          editData: (state, action: PayloadAction<DataUser>) => {
-            console.log(action)
-            console.log("action.payload:", action.payload);
             const foundIndex = state.findIndex(record => record.uuid === action.payload.uuid);
             if (foundIndex !== -1) {
                 state.splice(0, state.length);
@@ -21,7 +19,6 @@ const editUser = createSlice(
               }
          },
          updateData: (state, action: PayloadAction<DataUser>) => {
-            console.log(action.payload.uuid)
             let localStorageData: DataUser[] = JSON.parse(localStorage.getItem('formData') || '[]');
             const foundIndex = localStorageData.findIndex(record => record.uuid === action.payload.uuid);
             if (foundIndex !== -1) {

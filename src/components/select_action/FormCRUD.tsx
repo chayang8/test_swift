@@ -18,13 +18,10 @@ const FormCRUD = (props:any) => {
     const [buttonUpdate, setButtonUpdate] = useState(false);
     const formData = useAppSelector((state) => state.reducerform);
     const edit = useAppSelector((state) => state.reduceredit);
-    
-    console.log(edit)
+ 
     useEffect(() => {
-        console.log(edit)
         if (edit.length > 0) {
             setButtonUpdate(true)
-            console.log(edit)
             form.setFieldsValue({
             title: edit[0].title,
             name: edit[0].name,
