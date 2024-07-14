@@ -1,0 +1,59 @@
+.custom-form-row-1 {
+    display: inline-block;
+    margin-right: 16px;
+  }
+  
+  .custom-title-input {
+    width: calc(50% - 190px);
+  }
+  
+  .custom-name-surname-input {
+    width: calc(50% - 95px);
+  }
+
+.custom-form-row-2 {
+    display: inline-block;
+    margin-right: 16px;
+  }
+  
+  .custom-birth {
+    width: calc(50% - 50px);
+  }
+  
+  .custom-national {
+    margin-left: 15px;
+    width: calc(50% - 5px);
+  }
+
+.custom-form-row-3 {
+  display: inline-flex;
+  align-items: center; }
+  .box-1{
+    width: calc(10% - 8px);
+  }
+  .box-2{
+    width: calc(40% - 110px);
+  }
+  .box-3{
+  width: calc(50% - 120px);
+  }
+  .box-4{
+  width: calc(20% - 8px);
+  }
+  .box-5{
+  width: calc(10% - 8px);
+  }
+
+
+.dash {
+  margin: 0 3px; 
+  
+}
+
+.custom-form-row-6 {
+  display: inline-block;
+  margin-left: 13px;
+  .custom-passport{
+    width: 100px;
+  }
+}

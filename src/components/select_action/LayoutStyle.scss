@@ -1,0 +1,54 @@
+.shape-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000; 
+    width: 500px; 
+    height: 200px; 
+    margin: 5px;
+    cursor: pointer;
+  }
+
+.shape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 400px;
+    border: 1px solid #000;
+    text-transform: capitalize;
+    margin: 5px; 
+  }
+  
+  .square {
+    width: 150px;
+    // background-color: lightblue;
+    background-color: lightblue;
+  }
+  
+  .circle {
+    height: 150px;
+    width: 150px;
+    background-color: lightgreen;
+    border-radius: 50%;
+  }
+  
+  .oval {
+    background-color: lightpink;
+    border-radius: 50%;
+  }
+  
+  .trapezoid {
+    background-color: lightcoral;
+    clip-path: polygon(25% 0, 75% 0, 100% 100%, 0% 100%);
+  }
+  
+  .rectangle {
+    background-color: lightseagreen;
+  }
+  
+  .parallelogram {
+    background-color: lightsalmon;
+    transform: skew(20deg);
+  }
+  
